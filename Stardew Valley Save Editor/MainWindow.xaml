@@ -1,0 +1,23 @@
+﻿<Window x:Class="Stardew_Valley_Save_Editor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stardew_Valley_Save_Editor"
+        mc:Ignorable="d"
+        Title="Stardew Valley Save Editor" Height="350" Width="525" Loaded="Window_Loaded" Icon="appicon.ico">
+    <Grid>
+        <Menu x:Name="menu" Height="20" VerticalAlignment="Top">
+            <MenuItem Header="_File" Click="MenuItem_Click" >
+                <MenuItem x:Name="OpenMenu" Header="_Open" Width="Auto" Click="OpenMenu_Click"/>
+                <MenuItem x:Name="BackupMenu" Header="Backup" Width="Auto">
+                    <MenuItem x:Name="CreateBackup" Header="Create new backup" Width="Auto" Click="CreateBackup_Click" IsEnabled="False"/>
+                    <MenuItem x:Name="RestoreBackup" Header="Restore existing backup" Width="Auto" Click="RestoreBackup_Click"/>
+
+                </MenuItem>
+
+
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
