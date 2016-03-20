@@ -28,5 +28,10 @@ namespace Stardew_Valley_Save_Editor
             return this.Name;
         }
 
+        public string GameData
+        {
+            get; set;
+        }
+
     }
 }

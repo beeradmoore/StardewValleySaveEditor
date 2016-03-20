@@ -1,0 +1,414 @@
+﻿{
+  "tabs": [
+    {
+      "title": "Save Game",
+      "path": "/SaveGame",
+      "items": [
+        {
+          "type": "season",
+          "path": "/currentSeason",
+          "title": "Current season"
+        },
+        {
+          "type": "number",
+          "min": 1,
+          "max": 28,
+          "path": "/dayOfMonth",
+          "title": "Day of the month"
+        },
+        {
+          "type": "number",
+          "min": 1,
+          "path": "/year",
+          "title": "Year"
+        }
+      ]
+    },
+    {
+      "title": "Player",
+      "path": "/SaveGame/player",
+      "items": [
+        {
+          "type": "name",
+          "path": "/name",
+          "title": "Name"
+        },
+        {
+          "type": "gender",
+          "path": "/isMale",
+          "title": "Gender"
+        },
+        {
+          "type": "string",
+          "path": "/farmName",
+          "title": "Farm name"
+        },
+        {
+          "type": "string",
+          "path": "/favoriteThing",
+          "title": "Favourite thing"
+        },
+        {
+          "type": "boolean",
+          "path": "/catPerson",
+          "title": "Is a cat person",
+          "hint": "Unchecked means you are a dog person."
+        },
+        {
+          "type": "number",
+          "path": "/farmingLevel",
+          "title": "Farming level",
+          "min": 1,
+          "max": 10
+        },
+        {
+          "type": "number",
+          "path": "/miningLevel",
+          "title": "Mining level",
+          "min": 1,
+          "max": 10
+        },
+        {
+          "type": "number",
+          "path": "/combatLevel",
+          "title": "Combat level",
+          "min": 1,
+          "max": 10
+        },
+        {
+          "type": "number",
+          "path": "/foragingLevel",
+          "title": "Foraging level",
+          "min": 1,
+          "max": 10
+        },
+        {
+          "type": "number",
+          "path": "/fishingLevel",
+          "title": "Fishing level",
+          "min": 1,
+          "max": 10
+        },
+        {
+          "type": "number",
+          "path": "/maxStamina",
+          "title": "Max stamina"
+        },
+        {
+          "type": "number",
+          "path": "/maxHealth",
+          "title": "Max health"
+        },
+        {
+          "type": "number",
+          "path": "/money",
+          "title": "Money"
+        },
+        {
+          "type": "number",
+          "path": "/totalMoneyEarned",
+          "title": "Total money earned"
+        },
+        {
+          "type": "boolean",
+          "path": "/hasGreenhouse",
+          "title": "Has greenhouse"
+        },
+        {
+          "type": "boolean",
+          "path": "/hasUnlockedSkullDoor",
+          "title": "Has unlocked skull door"
+        },
+        {
+          "type": "number",
+          "path": "/magneticRadius",
+          "title": "Magnetic radius"
+        },
+        {
+          "type": "boolean",
+          "path": "/hasBusTicket",
+          "title": "hasBusTicket"
+        },
+        {
+          "type": "boolean",
+          "path": "/stardewHero",
+          "title": "stardewHero"
+        },
+        {
+          "type": "boolean",
+          "path": "/hasClubCard",
+          "title": "hasClubCard"
+        },
+        {
+          "type": "boolean",
+          "path": "/hasSpecialCharm",
+          "title": "hasSpecialCharm"
+        },
+        {
+          "type": "boolean",
+          "path": "/canUnderstandDwarves",
+          "title": "canUnderstandDwarves"
+        },
+        {
+          "type": "decimal",
+          "path": "/movementMultiplier",
+          "title": "movementMultiplier"
+        }
+      ]
+    },
+    {
+      "title": "Stats",
+      "path": "/SaveGame/stats",
+      "items": [
+        {
+          "type": "number",
+          "path": "/CropsShipped",
+          "title": "CropsShipped"
+        },
+        {
+          "type": "number",
+          "path": "/GeodesCracked",
+          "title": "GeodesCracked"
+        },
+        {
+          "type": "number",
+          "path": "/SlimesKilled",
+          "title": "SlimesKilled"
+        },
+        {
+          "type": "number",
+          "path": "/StarLevelCropsShipped",
+          "title": "StarLevelCropsShipped"
+        },
+        {
+          "type": "number",
+          "path": "/StoneGathered",
+          "title": "StoneGathered"
+        },
+        {
+          "type": "number",
+          "path": "/QuestsCompleted",
+          "title": "QuestsCompleted"
+        },
+        {
+          "type": "number",
+          "path": "/FishCaught",
+          "title": "FishCaught"
+        },
+        {
+          "type": "number",
+          "path": "/NotesFound",
+          "title": "NotesFound"
+        },
+        {
+          "type": "number",
+          "path": "/SticksChopped",
+          "title": "SticksChopped"
+        },
+        {
+          "type": "number",
+          "path": "/WeedsEliminated",
+          "title": "WeedsEliminated"
+        },
+        {
+          "type": "number",
+          "path": "/DaysPlayed",
+          "title": "DaysPlayed"
+        },
+        {
+          "type": "number",
+          "path": "/BouldersCracked",
+          "title": "BouldersCracked"
+        },
+        {
+          "type": "number",
+          "path": "/MysticStonesCrushed",
+          "title": "MysticStonesCrushed"
+        },
+        {
+          "type": "number",
+          "path": "/GoatCheeseMade",
+          "title": "GoatCheeseMade"
+        },
+        {
+          "type": "number",
+          "path": "/CheeseMade",
+          "title": "CheeseMade"
+        },
+        {
+          "type": "number",
+          "path": "/PiecesOfTrashRecycled",
+          "title": "PiecesOfTrashRecycled"
+        },
+        {
+          "type": "number",
+          "path": "/PreservesMade",
+          "title": "PreservesMade"
+        },
+        {
+          "type": "number",
+          "path": "/BeveragesMade",
+          "title": "BeveragesMade"
+        },
+        {
+          "type": "number",
+          "path": "/BarsSmelted",
+          "title": "BarsSmelted"
+        },
+        {
+          "type": "number",
+          "path": "/IridiumFound",
+          "title": "IridiumFound"
+        },
+        {
+          "type": "number",
+          "path": "/GoldFound",
+          "title": "GoldFound"
+        },
+        {
+          "type": "number",
+          "path": "/CoinsFound",
+          "title": "CoinsFound"
+        },
+        {
+          "type": "number",
+          "path": "/CoalFound",
+          "title": "CoalFound"
+        },
+        {
+          "type": "number",
+          "path": "/IronFound",
+          "title": "IronFound"
+        },
+        {
+          "type": "number",
+          "path": "/CopperFound",
+          "title": "CopperFound"
+        },
+        {
+          "type": "number",
+          "path": "/CaveCarrotsFound",
+          "title": "CaveCarrotsFound"
+        },
+        {
+          "type": "number",
+          "path": "/OtherPreciousGemsFound",
+          "title": "OtherPreciousGemsFound"
+        },
+        {
+          "type": "number",
+          "path": "/PrismaticShardsFound",
+          "title": "PrismaticShardsFound"
+        },
+        {
+          "type": "number",
+          "path": "/DiamondsFound",
+          "title": "DiamondsFound"
+        },
+        {
+          "type": "number",
+          "path": "/MonstersKilled",
+          "title": "MonstersKilled"
+        },
+        {
+          "type": "number",
+          "path": "/StepsTaken",
+          "title": "StepsTaken"
+        },
+        {
+          "type": "number",
+          "path": "/StumpsChopped",
+          "title": "StumpsChopped"
+        },
+        {
+          "type": "number",
+          "path": "/TimesFished",
+          "title": "TimesFished"
+        },
+        {
+          "type": "number",
+          "path": "/AverageBedtime",
+          "title": "AverageBedtime"
+        },
+        {
+          "type": "number",
+          "path": "/TimesUnconscious",
+          "title": "TimesUnconscious"
+        },
+        {
+          "type": "number",
+          "path": "/GiftsGiven",
+          "title": "GiftsGiven"
+        },
+        {
+          "type": "number",
+          "path": "/DirtHoed",
+          "title": "DirtHoed"
+        },
+        {
+          "type": "number",
+          "path": "/RocksCrushed",
+          "title": "RocksCrushed"
+        },
+        {
+          "type": "number",
+          "path": "/TrufflesFound",
+          "title": "TrufflesFound"
+        },
+        {
+          "type": "number",
+          "path": "/SheepWoolProduced",
+          "title": "SheepWoolProduced"
+        },
+        {
+          "type": "number",
+          "path": "/RabbitWoolProduced",
+          "title": "RabbitWoolProduced"
+        },
+        {
+          "type": "number",
+          "path": "/GoatMilkProduced",
+          "title": "GoatMilkProduced"
+        },
+        {
+          "type": "number",
+          "path": "/CowMilkProduced",
+          "title": "CowMilkProduced"
+        },
+        {
+          "type": "number",
+          "path": "/DuckEggsLayed",
+          "title": "DuckEggsLayed"
+        },
+        {
+          "type": "number",
+          "path": "/ItemsCrafted",
+          "title": "ItemsCrafted"
+        },
+        {
+          "type": "number",
+          "path": "/ChickenEggsLayed",
+          "title": "ChickenEggsLayed"
+        },
+        {
+          "type": "number",
+          "path": "/ItemsCooked",
+          "title": "ItemsCooked"
+        },
+        {
+          "type": "number",
+          "path": "/ItemsShipped",
+          "title": "ItemsShipped"
+        },
+        {
+          "type": "number",
+          "path": "/SeedsSown",
+          "title": "SeedsSown"
+        }
+      ]
+    },
+    {
+      "title": "Options"
+    }
+  ]
+}

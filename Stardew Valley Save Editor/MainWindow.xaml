@@ -10,6 +10,8 @@
         <Menu x:Name="menu" Height="20" VerticalAlignment="Top">
             <MenuItem Header="_File" Click="MenuItem_Click" >
                 <MenuItem x:Name="OpenMenu" Header="_Open" Width="Auto" Click="OpenMenu_Click"/>
+                <MenuItem x:Name="SaveMenu" Header="_Save" Width="Auto" Click="SaveMenu_Click"/>
+
                 <MenuItem x:Name="BackupMenu" Header="Backup" Width="Auto">
                     <MenuItem x:Name="CreateBackup" Header="Create new backup" Width="Auto" Click="CreateBackup_Click" IsEnabled="False"/>
                     <MenuItem x:Name="RestoreBackup" Header="Restore existing backup" Width="Auto" Click="RestoreBackup_Click"/>
@@ -18,6 +20,11 @@
 
 
             </MenuItem>
+            <MenuItem Header="Launch">
+                <MenuItem x:Name="LaunchNow" Header="Launch without saving" Width="Auto" Click="LaunchNow_Click"/>
+                <MenuItem x:Name="SaveAndLaunch" Header="Save and Launch" Width="Auto" Click="LaunchSave_Click"/>
+            </MenuItem>
         </Menu>
+        <TabControl x:Name="tabControl" Margin="0,24,0,0"/>
     </Grid>
 </Window>
