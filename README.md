@@ -15,7 +15,7 @@ A save editor for [Stardew Valley](http://store.steampowered.com/app/413150/).
 5. For this example we will want to edit the club coins, its xml path is /SaveGame/player/clubCoins
 6. Open the config.json that comes with SVSE and locate the correct tab that you wish to put this new property on.
 7. As it is a player property we will add it to the player tab so find the json element we need to edit (look for "title": "Player")
-8. Under the items, copy and paste an existing item and modify it for your needs.
+8. Under the items, copy and paste an existing item and modify it for your needs. 
 ```
 {
   "type": "number",
@@ -24,4 +24,4 @@ A save editor for [Stardew Valley](http://store.steampowered.com/app/413150/).
   "min": 1
 },
 ```
-9. Save the file and re-launch SVSE and now you can set the club coins property from within the player tab.
+Save the file and re-launch SVSE and now you can set the club coins property from within the player tab.
